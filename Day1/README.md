@@ -59,3 +59,11 @@ const [user1, ...rest] = userName
 
 -->Tên biến phải trùng với tên thuộc tính
 Xem thêm: ![alt text](image.png)
+
+## Toán tử Spread Operator
+
+- Tách mảng ra từng phần tử
+- VD: let user = ["a", "b", "c"];
+  user = [...user, "d"] // tách user thành "a", "b", "c"
+  //output: ["a", "b", "c", "d"]
+- Object cũng vậy
