@@ -61,8 +61,13 @@ body {
   opacity: 1;
 }
 .content-container {
-  width: 100%;
-  height: 200px;
-  padding: 20px;
-  margin-top: 60px;
+  height: max-content;
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: start;
+}
+.header-content {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
 }

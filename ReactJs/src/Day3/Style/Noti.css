@@ -1,0 +1,9 @@
+.noti {
+  width: 30vw;
+  height: max-content;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+}
+.btn-noti {
+  padding: 0.25rem 0.5rem;
+}
