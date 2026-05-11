@@ -1,4 +1,4 @@
-# State trong ReactJS
+# Trainning ReactJs
 
 ---
 

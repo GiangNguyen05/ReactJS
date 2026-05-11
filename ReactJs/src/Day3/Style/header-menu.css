@@ -44,6 +44,9 @@ body {
   opacity: 1;
   transform: opacity 0.4s ease;
 }
+.navBar li a.active-menu {
+  opacity: 1;
+}
 
 .search {
   flex: 1;
@@ -61,13 +64,17 @@ body {
   opacity: 1;
 }
 .content-container {
-  height: max-content;
+  flex: 1;
   padding-top: 20px;
   margin: 0 auto;
   text-align: start;
+  overflow: auto;
+  scroll-behavior: auto;
 }
 .header-content {
   width: 80%;
+  height: 50vh;
   display: flex;
   margin: 0 auto;
+  /* align-items: center; */
 }

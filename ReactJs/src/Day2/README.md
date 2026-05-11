@@ -1,11 +1,11 @@
 # Trainning ReactJs
 
-## Props & State
+## Props
 
 - Detructuring: {props}
 - spread: ...props
 
-### Props
+## Props
 
 - Props (properties) là cơ chế để truyền dữ liệu từ component cha xuống component con trong React. (giống như gọi hàm với tham số)
 

@@ -17,6 +17,7 @@ function Header() {
           {option.map((item)=>{
             return(
             <MenuBar
+            isSelected={selectedMenu === item}
             key = {item}
             children={item}
             onselect={() => {
