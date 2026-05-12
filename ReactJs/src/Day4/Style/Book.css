@@ -17,12 +17,43 @@
   width: 80%;
   list-style: none;
   padding: 0;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
-.name-book {
+.list-book li {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  height: max-content;
+  position: relative;
+  margin-bottom: 0.5rem;
+  height: 2rem;
   background: linear-gradient(45deg, #c6e0ec, #bfe7f1);
   border-radius: 10px;
 }
+.name-book {
+  flex: 1;
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+}
+
+.list-book .btn-ibook {
+  height: 100%;
+  background: linear-gradient(45deg, #c6e0ec, #bfe7f1);
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 15px;
+}
+.list-book .btn-ibook:hover {
+  background: #6692d4;
+  transition: background 0.5s;
+}
+
 .btn-wrap {
   width: 80%;
   display: flex;

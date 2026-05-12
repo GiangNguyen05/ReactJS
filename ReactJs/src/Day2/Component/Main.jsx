@@ -22,7 +22,7 @@ function Main() {
     setList(list.slice(0, -1)); // Xóa thành viên cuối cùng trong danh sách
   };
   return (
-    <main className="container">
+    <section className="container">
       <h1 className="title-list">List Member</h1>
       <ul className="list">
         {list.map((member, index) => (
@@ -38,7 +38,7 @@ function Main() {
         <TabButton onSelect={addMember}>AddMember</TabButton>
         <TabButton onSelect={delMember}>DelMember</TabButton>
       </div>
-    </main>
+    </section>
   );
 }
 export default Main;

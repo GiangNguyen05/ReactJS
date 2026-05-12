@@ -1,6 +1,7 @@
 import { EXAMPLES } from "../../../data.js";
 export default function ContentAll({ selectedMenu }) {
-  const content = EXAMPLES[selectedMenu];
+  const activeKey = selectedMenu || Object.keys(EXAMPLES)[0];
+  const content = EXAMPLES[activeKey];
 
   // 2. Nếu không tìm thấy (ví dụ selectedMenu là "Home" nhưng data.js không có key "Home")
   return (
