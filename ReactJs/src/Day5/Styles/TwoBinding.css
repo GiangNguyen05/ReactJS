@@ -43,7 +43,7 @@
   border: 1px solid #424040;
 }
 .form input:focus {
-  border: 1px solid #e99494;
+  border: 1px solid #161212;
   outline: none;
 }
 .form button {
@@ -58,4 +58,8 @@
 .form button:hover {
   background: linear-gradient(45deg, #d9e8ec, #59aacf);
   transform: translateY(2px);
+}
+
+.invalid {
+  border: 1px dashed red !important;
 }
